@@ -51,18 +51,21 @@ resource "fastly_service_dictionary_items_v1" "tf_provider_namespaces_dictionary
     "aviatrix" : "AviatrixSystems/aviatrix"
     "bigip" : "F5Networks/bigip"
     "brightbox" : "brightbox/brightbox"
+    "checkpoint" : "CheckPointSW/checkpoint"
     "circonus" : "circonus-labs/circonus"
     "cloudflare" : "cloudflare/cloudflare"
     "digitalocean" : "digitalocean/digitalocean"
     "do" : "digitalocean/digitalocean" # legacy website naming of digitalocean
     "exoscale" : "exoscale/exoscale"
     "fastly" : "fastly/fastly"
+    "flexibleengine" : "FlexibleEngineCloud/flexibleengine"
     "fortios" : "fortinetdev/fortios"
     "gridscale" : "gridscale/gridscale"
     "hcloud" : "hetznercloud/hcloud"
     "heroku" : "heroku/heroku"
     "huaweicloud" : "huaweicloud/huaweicloud"
     "huaweicloudstack" : "huaweicloud/huaweicloudstack"
+    "icinga2" : "Icinga/icinga2"
     "launchdarkly" : "launchdarkly/launchdarkly"
     "linode" : "linode/linode"
     "mongodbatlas" : "mongodb/mongodbatlas"
@@ -74,11 +77,11 @@ resource "fastly_service_dictionary_items_v1" "tf_provider_namespaces_dictionary
     "oktaasa" : "oktadeveloper/oktaasa"
     "opentelekomcloud" : "opentelekomcloud/opentelekomcloud" # unverified
     "opsgenie" : "opsgenie/opsgenie"
-    "ovh": "ovh/ovh" # unverified?
+    "ovh" : "ovh/ovh" # unverified?
     "packet" : "packethost/packet"
     "pagerduty" : "PagerDuty/pagerduty"
-    "panos" : "PaloAltoNetworks/panos" # unverified
-    "prismacloud": "PaloAltoNetworks/prismacloud" # unverified
+    "panos" : "PaloAltoNetworks/panos"             # unverified
+    "prismacloud" : "PaloAltoNetworks/prismacloud" # unverified
     "rancher2" : "rancher/rancher2"
     "scaleway" : "scaleway/scaleway"
     "selectel" : "selectel/selectel" # unverified
@@ -89,9 +92,10 @@ resource "fastly_service_dictionary_items_v1" "tf_provider_namespaces_dictionary
     "triton" : "joyent/triton"
     "turbot" : "turbot/turbot"
     "ucloud" : "ucloud/ucloud" # unverified
+    "venafi" : "Venafi/venafi"
     "vra7" : "vmware/vra7"
     "vultr" : "vultr/vultr"
-    "wavefront": "vmware/wavefront"
+    "wavefront" : "vmware/wavefront"
 
     # HashiCorp providers, if moving more of these, you may need the Registry to
     # manually enable Google indexing, contact the team / Paul Tyng for more
@@ -115,8 +119,10 @@ resource "fastly_service_dictionary_items_v1" "tf_provider_namespaces_dictionary
     "oraclepaas" : "hashicorp/oraclepaas"
     "random" : "hashicorp/random"
     "template" : "hashicorp/template"
+    "tfe" : "hashicorp/tfe"
     "time" : "hashicorp/time"
     "tls" : "hashicorp/tls"
+    "vault" : "hashicorp/vault"
     "vsphere" : "hashicorp/vsphere"
   }
 

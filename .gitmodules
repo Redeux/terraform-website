@@ -74,10 +74,6 @@
 	path = ext/providers/grafana
 	url = https://github.com/terraform-providers/terraform-provider-grafana
 	branch = stable-website
-[submodule "ext/providers/icinga2"]
-	path = ext/providers/icinga2
-	url = https://github.com/terraform-providers/terraform-provider-icinga2
-	branch = stable-website
 [submodule "ext/providers/ignition"]
 	path = ext/providers/ignition
 	url = https://github.com/terraform-providers/terraform-provider-ignition
@@ -166,10 +162,6 @@
 	path = ext/providers/cloudscale
 	url = https://github.com/terraform-providers/terraform-provider-cloudscale
 	branch = stable-website
-[submodule "ext/providers/flexibleengine"]
-	path = ext/providers/flexibleengine
-	url = https://github.com/terraform-providers/terraform-provider-flexibleengine
-	branch = stable-website
 [submodule "ext/providers/azurestack"]
 	path = ext/providers/azurestack
 	url = https://github.com/terraform-providers/terraform-provider-azurestack
@@ -242,10 +234,6 @@
 	path = ext/providers/genymotion
 	url = https://github.com/terraform-providers/terraform-provider-genymotion
 	branch = stable-website
-[submodule "ext/providers/venafi"]
-	path = ext/providers/venafi
-	url = https://github.com/terraform-providers/terraform-provider-venafi
-	branch = stable-website
 [submodule "ext/providers/dome9"]
 	path = ext/providers/dome9
 	url = https://github.com/terraform-providers/terraform-provider-dome9
@@ -261,10 +249,6 @@
 [submodule "ext/providers/opennebula"]
 	path = ext/providers/opennebula
 	url = https://github.com/terraform-providers/terraform-provider-opennebula
-	branch = stable-website
-[submodule "ext/providers/checkpoint"]
-	path = ext/providers/checkpoint
-	url = https://github.com/terraform-providers/terraform-provider-checkpoint
 	branch = stable-website
 [submodule "ext/providers/metalcloud"]
 	path = ext/providers/metalcloud
